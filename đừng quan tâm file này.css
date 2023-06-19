@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i.pinimg.com/736x/cd/c9/b2/cdc9b262d27e321efda516fb245aa066.jpg");
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(50px); /* Điều chỉnh độ mờ tại đây */
+}
+.custom-text {
+  position: absolute; /* Đặt vị trí tuyệt đối */
+  top: 10%; /* Đặt vị trí theo chiều dọc */
+  left: 15%; /* Đặt vị trí theo chiều ngang */
+  transform: translate(-50%, -50%); /* Dịch chuyển vị trí 50% theo chiều ngang và dọc */
+  font-size: 20px; /* Đặt kích thước chữ */
+  color: rgb(68, 57, 57); /* Đặt màu chữ */
+  text-align: TOP; /* Căn giữa văn bản */
+  background-color: #f0f0f0aa; /* Đặt màu nền */
+  padding: 7px;
+  font-family: 'boulevard', sans-serif; /* Đổi font chữ */
+}
+
